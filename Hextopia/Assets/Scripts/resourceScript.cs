@@ -8,6 +8,7 @@ public class resourceScript : MonoBehaviour
     public string material;
     public int load;
     public int maxLoad;
+    public float despawnTime = 0.5f;
 
     public UICanvasScript UIScript;
 
@@ -27,15 +28,18 @@ public class resourceScript : MonoBehaviour
     {
         if (load <= 0)
         {
-            UIScript.treeList.Remove(gameObject);
-            Destroy(gameObject);
+            despawnTime -= Time.deltaTime;
+            if (despawnTime <= 0)
+            {
+                UIScript.treeList.Remove(gameObject);
+                Destroy(gameObject);
+            }
         }
     }
 
     public void setResourceType(string rt)
     {
         material = rt;
-
     }
     public void setLoad(int l)
     {

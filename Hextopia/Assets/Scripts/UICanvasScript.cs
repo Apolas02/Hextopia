@@ -15,10 +15,11 @@ public class UICanvasScript : MonoBehaviour
     
 
     public string[] houseObjects = { };
-    public string[] TCObjects = { };
-    public GameObject[] storehouseCount = { };
-    public string[] civObjects = { };
-    public GameObject[] tcCount = { };
+    
+    public int storehouseCount = 0;
+    public int townCenterCount = 0;
+    public string[] civObjects = { }; //holds NPC objects to be spawned
+    public GameObject[] storehouses = { };
     public GameObject[] houselvl1Count = { };
     public NavMeshAgent npcAgent;
     public Vector3 npcAgentDestination;
@@ -35,12 +36,14 @@ public class UICanvasScript : MonoBehaviour
     Dropdown jobSelectorDropdown;
     GameObject storehouseButton;
 
+    public int optionIndex; // jobdropdown index
     public int houseCount;
-    public int civCount;
     public int popLimit;
     int woodCount;
     public List<GameObject> treeList = new List<GameObject>();
     public List<GameObject> builtObjectList = new List<GameObject>();
+
+    
 
 
     // Start is called before the first frame update
@@ -92,10 +95,8 @@ public class UICanvasScript : MonoBehaviour
     {
         Destroy(target);
         clickTargetScript.clickedTarget = null;
-        if (checkCivObjects() == true)
-        {
-            civCount -= 1;
-        }
+        if (checkCivObjects() == true) resourceCounter.SetPopulation(resourceCounter.GetPopulation() - 1);
+        storehouseCount -= 1;
     }
 
     void showRecycle()
@@ -109,7 +110,7 @@ public class UICanvasScript : MonoBehaviour
 
     void showMenuItems()
     {
-        if (tcCount.Length != 0)
+        if (townCenterCount != 0)
         {
             showHouseMenuItems();
             removeTCMenuItems();
@@ -132,7 +133,7 @@ public class UICanvasScript : MonoBehaviour
                 removeHouseMenuItems();
             }
 
-            if (checkTCObjects() == true)
+            if (target.tag == "towncenter_lvl1")
             {
                 
                 showTCMenuItems();
@@ -158,11 +159,6 @@ public class UICanvasScript : MonoBehaviour
             removeTCMenuItems();
             removeCivMenuItems();
         }
-
-        
-
-        
-
     }
 
     ///// Houses on click ///////
@@ -192,18 +188,6 @@ public class UICanvasScript : MonoBehaviour
     }
 
     ///// Town Center on click /////
-    // checks a list of valid objects
-    bool checkTCObjects()
-    {
-        for (int i = 0; i < TCObjects.Length; i++)
-        {
-            if (target.gameObject.name.Equals(TCObjects[i]))
-            {
-                return true;
-            }
-        }
-        return false;
-    }
 
     // displays menu items for tc objects
     void showTCMenuItems()
@@ -267,7 +251,7 @@ public class UICanvasScript : MonoBehaviour
 
     void checkRequiredBuildings()
     {
-        if (tcCount.Length == 0)
+        if (townCenterCount == 0)
         {
             townCenterButton.SetActive(true);
             storehouseButton.SetActive(false);
@@ -278,15 +262,15 @@ public class UICanvasScript : MonoBehaviour
             storehouseButton.SetActive(true);
         }
 
-        if (storehouseCount.Length == 0) houseButton.SetActive(false);
+        if (storehouseCount == 0) houseButton.SetActive(false);
         else houseButton.SetActive(true);
     }
 
     public void countBuidlings()
     {
-        tcCount = GameObject.FindGameObjectsWithTag("towncenter_lvl1");
-        storehouseCount = GameObject.FindGameObjectsWithTag("storehouse_lvl1");
         houselvl1Count = GameObject.FindGameObjectsWithTag("house_lvl1");
+        townCenterCount = GameObject.FindGameObjectsWithTag("towncenter_lvl1").Length;
+        storehouseCount = storehouses.Length;
         houseCount = houselvl1Count.Length;
     }
 
@@ -300,19 +284,22 @@ public class UICanvasScript : MonoBehaviour
 
     public void jobSelector()
     {
-        int optionIndex = jobSelectorDropdown.value;
-        target.GetComponent<CivilianScript>().setJob(jobSelectorDropdown.options[optionIndex].text);
+        optionIndex = jobSelectorDropdown.value;
+        //targetCivilianScript.getJob();
+        targetCivilianScript.setJob(jobSelectorDropdown.options[optionIndex].text);
+        targetCivilianScript.setWaitTime(0f);
     }
 
 
     int CalculateWoodCount()
     {
         int wood = 20;
-        if (storehouseCount.Length > 0)
+        storehouseScript SHscript;
+        if (storehouseCount > 0)
         {
-            foreach (GameObject storehouse in storehouseCount)
+            foreach (GameObject storehouse in GameObject.FindGameObjectsWithTag("storehouse_lvl1"))
             {
-                storehouseScript SHscript = storehouse.GetComponent<storehouseScript>();
+                SHscript = storehouse.GetComponent<storehouseScript>();
                 wood = SHscript.GetWood();
             }
         }

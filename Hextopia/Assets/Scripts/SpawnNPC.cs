@@ -12,23 +12,17 @@ public class SpawnNPC : MonoBehaviour
 
     public GameObject[] npcs = { };
     public void SpawnCivilian()
-    {
-        
+    {   
         GameObject newCiv;
         GameObject playerTarget = clickTarget.clickedTarget;
 
         resourceCounter = GetComponent<ResourceCounter>();
-
-
-
-
 
         int population = resourceCounter.GetPopulation();
         int populationLimit = resourceCounter.GetPopulationLimit();
         int randomCiv = Random.Range(0, npcs.Length);
         int randomPosition = Random.Range(0, 4);
         
-
         Vector3[] spawnPos = { playerTarget.transform.GetChild(0).position,
                                playerTarget.transform.GetChild(1).position,
                                playerTarget.transform.GetChild(2).position,

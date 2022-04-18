@@ -32,7 +32,7 @@ public class CivilianScript : MonoBehaviour
     NavMeshAgent npcAgent;
     Animator ani;
     Vector3 zeroVelocity;
-    float waitTime = 0.5f;
+    public float waitTime = 0.5f;
     public Vector3 npcDestination;
 
     void Start()
@@ -47,18 +47,17 @@ public class CivilianScript : MonoBehaviour
 
     void Update()
     {
-        
+        JobChanger();
         npcDestination = GetComponent<NavMeshAgent>().destination;
         distanceToTarget = Vector3.Distance(transform.position, target.transform.position);
-
-
-        JobChanger();
     }
 
     
 
     void JobChanger()
     {
+        // Tools
+        GameObject woodAxe = transform.Find("CharacterArmature/Bone/Body 1/Hips/Abdomen/Torso/Shoulder.R/UpperArm.R/LowerArm.R/Fist.R/Fist.R_end/Axe").gameObject;
 
         switch (job)
         {
@@ -82,6 +81,7 @@ public class CivilianScript : MonoBehaviour
         
         void Unemployed() 
         {
+            woodAxe.SetActive(false);
             npcAgent.isStopped = false;
             MovingAni();
             wanderTC();
@@ -116,15 +116,16 @@ public class CivilianScript : MonoBehaviour
 
         void Logger()
         {
+            woodAxe.SetActive(true);
             float detectionRange = 1.0f;
 
             if (load < maxLoad)
             {
                 npcAgent.SetDestination(closestNode(getJob()));
+                targetResScript = target.GetComponent<resourceScript>();
                 //if in detectionRage of closestNode, stop and gather
                 if (Vector3.Distance(transform.position, target.transform.position) <= detectionRange)
                 {
-                    targetResScript = target.GetComponent<resourceScript>();
                     npcAgent.isStopped = true;
                     transform.LookAt(target.transform);
                     ChopRes();
@@ -373,6 +374,14 @@ public class CivilianScript : MonoBehaviour
     {
         loadMaterial = lm;
     }
+    public void setWaitTime(float wt)
+    {
+        waitTime = wt;
+    }
+
+
+
+
 
     //Getting Values
     public int getHealth()
@@ -407,6 +416,11 @@ public class CivilianScript : MonoBehaviour
     public string getLoadMaterial()
     {
         return loadMaterial;
+    }
+
+    public float getWaitTime()
+    {
+        return waitTime;
     }
 
     //CONSTRUCTORS
