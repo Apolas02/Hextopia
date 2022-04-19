@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class storehouseScript : MonoBehaviour
 {
-    public int wood;
+    int wood;
+    public int stone;
     public float load;
     public float maxLoad = 100;
     public ResourceCounter ResourceCounter;
@@ -28,7 +29,7 @@ public class storehouseScript : MonoBehaviour
 
     void CalculateTotalLoad()
     {
-        load = wood;
+        load = wood + stone;
     }
 
     void ShowLoad()
@@ -73,6 +74,16 @@ public class storehouseScript : MonoBehaviour
     public int GetWood()
     {
         return wood;
+    }
+
+    public void AddStone(int w)
+    {
+        stone += w;
+    }
+
+    public int GetStone()
+    {
+        return stone;
     }
 
 }

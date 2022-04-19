@@ -25,7 +25,9 @@ public class CivilianScript : MonoBehaviour
     public GameObject closestStorehouse;
     storehouseScript SHScript;
 
-
+    //Resourse Lists
+    public ResourceCounter resourceCounter;
+    
 
     //Movement
     public GameObject townCenter;
@@ -41,7 +43,6 @@ public class CivilianScript : MonoBehaviour
         ani = GetComponent<Animator>();
         zeroVelocity = new Vector3(0, 0, 0);
         setTarget(townCenter);
-        
 
     }
 
@@ -64,11 +65,10 @@ public class CivilianScript : MonoBehaviour
             case "Unemployed":
                 Unemployed();
                 break;
-            
 
-            case "Builder":
-                Builder();
-                break;
+            //case "Builder":
+                //Builder();
+                //break;
         
             case "Logger":
                 Logger();
@@ -109,10 +109,10 @@ public class CivilianScript : MonoBehaviour
             }
         }
 
-        void Builder()
+        /*void Builder()
         {
             npcAgent.isStopped = false;
-        }
+        }*/
 
         void Logger()
         {
@@ -126,6 +126,7 @@ public class CivilianScript : MonoBehaviour
                 //if in detectionRage of closestNode, stop and gather
                 if (Vector3.Distance(transform.position, target.transform.position) <= detectionRange)
                 {
+
                     npcAgent.isStopped = true;
                     transform.LookAt(target.transform);
                     ChopRes();
@@ -136,6 +137,12 @@ public class CivilianScript : MonoBehaviour
                         load += 1;
                         targetResScript.setLoad(targetResScript.getLoad() - 1);
                         gatherTimer = 2;
+                        if (targetResScript.getLoad() == 0)
+                        {
+                            Debug.Log("Out of res");
+                            resourceCounter.treeList.Remove(target.gameObject);
+                            targetResScript.OutOfRes();
+                        }
                     }
                 }
                 // walk to closestNode
@@ -178,7 +185,69 @@ public class CivilianScript : MonoBehaviour
 
         void Miner()
         {
-            npcAgent.isStopped = false;
+            woodAxe.SetActive(true);
+            float detectionRange = 1.0f;
+
+            if (load < maxLoad)
+            {
+                npcAgent.SetDestination(closestNode(getJob()));
+                targetResScript = target.GetComponent<resourceScript>();
+                //if in detectionRage of closestNode, stop and gather
+                if (Vector3.Distance(transform.position, target.transform.position) <= detectionRange)
+                {
+
+                    npcAgent.isStopped = true;
+                    transform.LookAt(target.transform);
+                    ChopRes();
+                    gatherTimer -= Time.deltaTime;
+                    if (gatherTimer <= 0)
+                    {
+                        Debug.Log("Gathered Stone");
+                        load += 1;
+                        targetResScript.setLoad(targetResScript.getLoad() - 1);
+                        gatherTimer = 2;
+                        if (targetResScript.getLoad() == 0)
+                        {
+                            Debug.Log("Out of res");
+                            resourceCounter.stoneList.Remove(target.gameObject);
+                            targetResScript.OutOfRes();
+                        }
+                    }
+                }
+                // walk to closestNode
+                else
+                {
+                    npcAgent.isStopped = false;
+                    Walk();
+                }
+            }
+
+            //full of resource
+            else
+            {
+                npcAgent.SetDestination(closestStorehouse());
+                SHScript = target.GetComponent<storehouseScript>();
+                if (Vector3.Distance(transform.position, target.transform.position) <= detectionRange)
+                {
+                    npcAgent.isStopped = true;
+
+                    transform.LookAt(target.transform);
+                    DropLoad();
+                    unloadTimer -= Time.deltaTime;
+                    if (unloadTimer <= 0)
+                    {
+                        Debug.Log("Dropped Stone");
+                        SHScript.AddStone(load);
+                        load -= load;
+                        unloadTimer = 5;
+                    }
+                }
+                else
+                {
+                    npcAgent.isStopped = false;
+                    WalkMaxLoad();
+                }
+            }
         }
 
         Vector3 closestNode(string j)
@@ -189,15 +258,15 @@ public class CivilianScript : MonoBehaviour
             switch (j)
             {
                 case "Logger":
-                    if (UIScript.treeList.Count != 0)
+                    if (resourceCounter.treeList.Count != 0)
                     {
-                        foreach (GameObject tree_1 in UIScript.treeList)
+                        foreach (GameObject tree in resourceCounter.treeList)
                         {
-                            float dist = Vector3.Distance(tree_1.transform.position, currentPos);
+                            float dist = Vector3.Distance(tree.transform.position, currentPos);
                             if (dist < minDist)
                             {
-                                setTarget(tree_1);
-                                minRes = tree_1.transform.position;
+                                setTarget(tree);
+                                minRes = tree.transform.position;
                                 minDist = dist;
                             }
 
@@ -210,29 +279,37 @@ public class CivilianScript : MonoBehaviour
                     
                     break;
 
-                //case "Miner":
-                //    foreach (GameObject tree_1 in treeList)
-                //    {
-                //        float dist = Vector3.Distance(tree_1.transform.position, currentPos);
-                //        if (dist < minDist)
-                //        {
-                //            minRes = tree_1.transform.position;
-                //            minDist = dist;
-                //        }
-                //    }
-                //    break;
+                case "Miner":
+                    if (resourceCounter.stoneList.Count != 0)
+                    {
+                        foreach (GameObject stone in resourceCounter.stoneList)
+                        {
+                            float dist = Vector3.Distance(stone.transform.position, currentPos);
+                            if (dist < minDist)
+                            {
+                                setTarget(stone);
+                                minRes = stone.transform.position;
+                                minDist = dist;
+                            }
+                        }
+                    }
+                    else
+                    {
+                        setJob("Unemployed");
+                    }
+                    break;
 
-                //case "Builder":
-                //    foreach (GameObject tree_1 in treeList)
-                //    {
-                //        float dist = Vector3.Distance(tree_1.transform.position, currentPos);
-                //        if (dist < minDist)
-                //        {
-                //            minRes = tree_1.transform.position;
-                //            minDist = dist;
-                //        }
-                //    }
-                //    break;
+                    //case "Builder":
+                    //    foreach (GameObject tree_1 in treeList)
+                    //    {
+                    //        float dist = Vector3.Distance(tree_1.transform.position, currentPos);
+                    //        if (dist < minDist)
+                    //        {
+                    //            minRes = tree_1.transform.position;
+                    //            minDist = dist;
+                    //        }
+                    //    }
+                    //    break;
             }
             return minRes;
 
@@ -260,31 +337,6 @@ public class CivilianScript : MonoBehaviour
             return minStorehouse;
         }
     }
-
-
-    
-
-    //void WanderTC()
-    //{
-    //    target = townCenter;
-    //    float wanderX = townCenter.transform.position.x + Random.Range(-3, 3);
-    //    float wanderZ = townCenter.transform.position.z + Random.Range(-3, 3);
-    //    float WanderY = townCenter.transform.position.y;
-
-
-    //    if (npcAgent.velocity == zeroVelocity)
-    //    {
-    //        waitTime -= Time.deltaTime;
-    //    }
-
-
-    //    if (waitTime <= 0)
-    //    {
-    //        Debug.Log("Wait Time Elapsed");
-    //        waitTime = Random.Range(10, 30);
-    //        npcAgent.SetDestination(new Vector3(wanderX, WanderY, wanderZ));
-    //    }
-    //}
 
     void MovingAni()
     {

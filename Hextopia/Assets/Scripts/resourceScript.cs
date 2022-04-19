@@ -21,20 +21,12 @@ public class resourceScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        OutOfRes();
+
     }
 
     public void OutOfRes()
     {
-        if (load <= 0)
-        {
-            despawnTime -= Time.deltaTime;
-            if (despawnTime <= 0)
-            {
-                UIScript.treeList.Remove(gameObject);
-                Destroy(gameObject);
-            }
-        }
+        Destroy(gameObject);
     }
 
     public void setResourceType(string rt)

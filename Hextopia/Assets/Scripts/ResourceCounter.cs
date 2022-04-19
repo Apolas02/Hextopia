@@ -9,6 +9,27 @@ public class ResourceCounter : MonoBehaviour
     private int wood = 0;
     private int stone = 0;
 
+    //Resource Nodes
+    public List<GameObject> treeList = new List<GameObject>();
+    public List<GameObject> stoneList = new List<GameObject>();
+
+
+    private void Start()
+    {
+        PopulateResourceLists();
+    }
+
+    void PopulateResourceLists()
+    {
+        foreach (GameObject tree in GameObject.FindGameObjectsWithTag("tree"))
+        {
+            treeList.Add(tree);
+        }
+        foreach (GameObject stone in GameObject.FindGameObjectsWithTag("stone"))
+        {
+            stoneList.Add(stone);
+        }
+    }
 
     // Sets
     public void SetPopulation(int p)

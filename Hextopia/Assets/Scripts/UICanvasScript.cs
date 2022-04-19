@@ -39,8 +39,9 @@ public class UICanvasScript : MonoBehaviour
     public int optionIndex; // jobdropdown index
     public int houseCount;
     public int popLimit;
-    int woodCount;
-    public List<GameObject> treeList = new List<GameObject>();
+    int wood = 20;
+    int stone = 20;
+
     public List<GameObject> builtObjectList = new List<GameObject>();
 
     
@@ -51,17 +52,17 @@ public class UICanvasScript : MonoBehaviour
     {
         resourceCounter = gameObject.GetComponent<ResourceCounter>();
         startState();
-        PopulateResourceLists();
     }
 
     // Update is called once per frame
     void Update()
     {
-        ResourceCount();
+        ResourceUICount();
         countBuidlings();
         populationLimit();
+        CalculateResCount();
         checkRequiredBuildings();
-        CalculateWoodCount();
+        checkBuildingRequiredResourses();
         showMenuItems();
         target = clickTargetScript.clickedTarget;
     }
@@ -160,6 +161,7 @@ public class UICanvasScript : MonoBehaviour
             removeCivMenuItems();
         }
     }
+
 
     ///// Houses on click ///////
     // checks a list of valid objects
@@ -266,34 +268,32 @@ public class UICanvasScript : MonoBehaviour
         else houseButton.SetActive(true);
     }
 
+    void checkBuildingRequiredResourses()
+    {
+        if (wood < 25) houseButton.GetComponent<Button>().enabled = false;
+        else houseButton.SetActive(true);
+
+
+    }
+
     public void countBuidlings()
     {
         houselvl1Count = GameObject.FindGameObjectsWithTag("house_lvl1");
         townCenterCount = GameObject.FindGameObjectsWithTag("towncenter_lvl1").Length;
-        storehouseCount = storehouses.Length;
+        storehouseCount = GameObject.FindGameObjectsWithTag("storehouse_lvl1").Length;
         houseCount = houselvl1Count.Length;
-    }
-
-    void PopulateResourceLists()
-    {
-        foreach (GameObject tree_1 in GameObject.FindGameObjectsWithTag("tree"))
-        {
-            treeList.Add(tree_1);
-        }
     }
 
     public void jobSelector()
     {
         optionIndex = jobSelectorDropdown.value;
-        //targetCivilianScript.getJob();
         targetCivilianScript.setJob(jobSelectorDropdown.options[optionIndex].text);
         targetCivilianScript.setWaitTime(0f);
     }
 
 
-    int CalculateWoodCount()
+    void CalculateResCount()
     {
-        int wood = 20;
         storehouseScript SHscript;
         if (storehouseCount > 0)
         {
@@ -301,9 +301,9 @@ public class UICanvasScript : MonoBehaviour
             {
                 SHscript = storehouse.GetComponent<storehouseScript>();
                 wood = SHscript.GetWood();
+                stone = SHscript.GetStone();
             }
         }
-        return wood;
     }
 
     void populationLimit()
@@ -313,13 +313,15 @@ public class UICanvasScript : MonoBehaviour
         resourceCounter.SetPopulationLimit(popLimit);
     }
 
-    void ResourceCount()
+    void ResourceUICount()
     {
         Text woodCountUI = transform.Find("ResourceCounts/Wood/WoodCount").GetComponent<Text>();
+        Text stoneCountUI = transform.Find("ResourceCounts/Stone/StoneCount").GetComponent<Text>();
         Text popCountUI = transform.Find("ResourceCounts/Population/PopulationCount").GetComponent<Text>();
         Text maxPopUI = transform.Find("ResourceCounts/MaxPop/MaxPopCount").GetComponent<Text>();
 
-        woodCountUI.text = CalculateWoodCount().ToString();
+        woodCountUI.text = wood.ToString();
+        stoneCountUI.text = stone.ToString();
         popCountUI.text = resourceCounter.GetPopulation().ToString();
         maxPopUI.text = resourceCounter.GetPopulationLimit().ToString();
     }
