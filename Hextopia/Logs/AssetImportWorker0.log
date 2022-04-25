@@ -705,3 +705,1609 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006327 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.766 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1768ms)
+		BeginReloadAssembly (247ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (1370ms)
+			LoadAssemblies (195ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (339ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (639ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (119ms)
+				ProcessInitializeOnLoadAttributes (358ms)
+				ProcessInitializeOnLoadMethodAttributes (134ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3367 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (316.5 KB). Loaded Objects now: 4142.
+Memory consumption went from 191.8 MB to 191.5 MB.
+Total: 5.248100 ms (FindLiveObjects: 0.345700 ms CreateObjectMapping: 0.177900 ms MarkObjects: 4.664700 ms  DeleteObjects: 0.058200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3848.790334 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Pirate_Male.obj
+  artifactKey: Guid(4668a4d4cc7ddb049921db50762216b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Pirate_Male.obj using Guid(4668a4d4cc7ddb049921db50762216b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18fa7f4bdd54f5dba9c96706bf661326') in 0.523904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/External Packages/buildings/fbx/tower_lvl2.FBX
+  artifactKey: Guid(262a6ed0126b60642bb6bc7ddddbf99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/tower_lvl2.FBX using Guid(262a6ed0126b60642bb6bc7ddddbf99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca61938b3729d9a4e7d556f6e6cc300') in 0.091168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/External Packages/buildings/fbx/tower_lvl6.FBX
+  artifactKey: Guid(b8765a5fac1298844ad6c75168ca605e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/tower_lvl6.FBX using Guid(b8765a5fac1298844ad6c75168ca605e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3966b6f5b65529b007d4e9fabbd9bc3e') in 0.066514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Cowboy_Hair.obj
+  artifactKey: Guid(f5c1a14c03693b94eb5095ca57dd05bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Cowboy_Hair.obj using Guid(f5c1a14c03693b94eb5095ca57dd05bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff52178572080e4956c9cbcf545808d') in 0.124690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/External Packages/SkythianCat/Hand_Painted_Nature_Kit_LITE/Materials/Stump_tip.mat
+  artifactKey: Guid(fd2fea3c5c04b3044a0e0925974148da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/SkythianCat/Hand_Painted_Nature_Kit_LITE/Materials/Stump_tip.mat using Guid(fd2fea3c5c04b3044a0e0925974148da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00fdfc53942f560abf015fd1222dd4bb') in 0.040350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/External Packages/Customizable Skybox/Stylized Sky/Materials/Sunset4.mat
+  artifactKey: Guid(20f6d22d93779de4ea6f62f8ab305593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Customizable Skybox/Stylized Sky/Materials/Sunset4.mat using Guid(20f6d22d93779de4ea6f62f8ab305593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd86d6acd3e9dfcbed261f80cd3c6870') in 0.042438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/External Packages/Customizable Skybox/Stylized Sky/Materials/Sunset5.mat
+  artifactKey: Guid(baef7505b9e48404cb74585601f49ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Customizable Skybox/Stylized Sky/Materials/Sunset5.mat using Guid(baef7505b9e48404cb74585601f49ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a3bb5592d1242978c1ce109585453b') in 0.037678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Doctor_Female_Old.obj
+  artifactKey: Guid(057b490ce5a83424e889f6b1faba60b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Doctor_Female_Old.obj using Guid(057b490ce5a83424e889f6b1faba60b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57311e9d520aeeceb696772d29ab86ff') in 0.114928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Cowboy_Female.fbx
+  artifactKey: Guid(011b57c5edce79a4f949b2cff495974a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Cowboy_Female.fbx using Guid(011b57c5edce79a4f949b2cff495974a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a4d69fb00e5d30a7740e9c1739d5817') in 0.205191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/External Packages/Samples/Polybrush/1.0.2/Shader Examples (Standard)/Shader/Terrain Material.mat
+  artifactKey: Guid(bde5ba79f3f1c934ebacc6531c906d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Samples/Polybrush/1.0.2/Shader Examples (Standard)/Shader/Terrain Material.mat using Guid(bde5ba79f3f1c934ebacc6531c906d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d08361f96a822fb1322dfd445b81460') in 0.038532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/External Packages/SkythianCat/Hand_Painted_Nature_Kit_LITE/Materials/terrain.mat
+  artifactKey: Guid(1f395abdd881bac48b3fdb6ed13439c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/SkythianCat/Hand_Painted_Nature_Kit_LITE/Materials/terrain.mat using Guid(1f395abdd881bac48b3fdb6ed13439c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c982ce7b7c3ae846a077d463fbe3534') in 0.032169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Cowboy_Male.fbx
+  artifactKey: Guid(bfadb8600a465434c90d3633ee0e5c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Cowboy_Male.fbx using Guid(bfadb8600a465434c90d3633ee0e5c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f368b27075c697d85979fa1ad189bc') in 0.168060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Cowboy_Female.obj
+  artifactKey: Guid(73b58259c801fc84387f79a1831d2186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Cowboy_Female.obj using Guid(73b58259c801fc84387f79a1831d2186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed2108ea771c58f18b847166ed055332') in 0.141847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/External Packages/buildings/materials/towers.mat
+  artifactKey: Guid(1ffd983d41367184a9b6cd4d2f45861d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/materials/towers.mat using Guid(1ffd983d41367184a9b6cd4d2f45861d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cd8723b46acaadcbad3db02348a8913') in 0.047831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/External Packages/Customizable Skybox/Stylized Sky/Materials/Sunset2.mat
+  artifactKey: Guid(528363c5c1cf6a7458140c6851c77b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Customizable Skybox/Stylized Sky/Materials/Sunset2.mat using Guid(528363c5c1cf6a7458140c6851c77b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92813af33db3094ed7ee5d81da503f15') in 0.040787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/External Packages/buildings/fbx/tower_lvl7.FBX
+  artifactKey: Guid(238f3d8957882a74a86241dac4a450ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/tower_lvl7.FBX using Guid(238f3d8957882a74a86241dac4a450ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e712c015c2ac5e21902c0befb181028') in 0.062548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/External Packages/SkythianCat/Hand_Painted_Nature_Kit_LITE/Materials/Skybox/Sky1_sun_cloud.mat
+  artifactKey: Guid(18a18be315858d64c9a8ce50ccd52e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/SkythianCat/Hand_Painted_Nature_Kit_LITE/Materials/Skybox/Sky1_sun_cloud.mat using Guid(18a18be315858d64c9a8ce50ccd52e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509f1ddf9b2de008138102a68486a92d') in 0.059224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Cowboy_Hair.fbx
+  artifactKey: Guid(2f98ece6a70d2124f9330932f1b4c8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Cowboy_Hair.fbx using Guid(2f98ece6a70d2124f9330932f1b4c8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c704d19da7ce9cb4e36702f8e7aa58ed') in 0.187148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Goblin_Male.obj
+  artifactKey: Guid(d1334af823b540346a24538fa1359826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Goblin_Male.obj using Guid(d1334af823b540346a24538fa1359826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88a4b5e66d6f56276bcefc742bbc1ae') in 0.090328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Casual3_Female.obj
+  artifactKey: Guid(b07a3c715aca9b64f8f00a497c7bf0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Casual3_Female.obj using Guid(b07a3c715aca9b64f8f00a497c7bf0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d756d398f822dedd1ea1c59ee1ff7d6') in 0.111830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Cowboy_Male.obj
+  artifactKey: Guid(37719ce5cb398eb4594a39dba5616989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Cowboy_Male.obj using Guid(37719ce5cb398eb4594a39dba5616989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8548d1f31071f255b722cff2887f70') in 0.135889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/External Packages/Customizable Skybox/Stylized Sky/Materials/Sunset3.mat
+  artifactKey: Guid(7ed994c1997814049b44c36a823bba6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Customizable Skybox/Stylized Sky/Materials/Sunset3.mat using Guid(7ed994c1997814049b44c36a823bba6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ca589feec11ddbee533a6c92a37ac4') in 0.031489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/BlueSoldier_Female.fbx
+  artifactKey: Guid(fee8cca2237e8b54e836a91abf27c021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/BlueSoldier_Female.fbx using Guid(fee8cca2237e8b54e836a91abf27c021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '073634bee78f86b424ed3b8b2aa94cea') in 0.130914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Goblin_Male.fbx
+  artifactKey: Guid(615f512895d63a14b936dd8ec1280f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Goblin_Male.fbx using Guid(615f512895d63a14b936dd8ec1280f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589721c3bdc2dc4b58bae93157fab4fd') in 0.120555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Kimono_Male.obj
+  artifactKey: Guid(571773d7581e4974483a26b65b092d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Kimono_Male.obj using Guid(571773d7581e4974483a26b65b092d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb87055c23ea0858a51285e5f78059c') in 0.102672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Doctor_Female_Young.obj
+  artifactKey: Guid(d8466613c5d358e48ae634acb4d47285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Doctor_Female_Young.obj using Guid(d8466613c5d358e48ae634acb4d47285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35591afe2eddf21c519dc0289a22260f') in 0.109394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/External Packages/Customizable Skybox/Stylized Sky/Materials/Sunset1.mat
+  artifactKey: Guid(2441c79940171dc43b33badf9fe97828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Customizable Skybox/Stylized Sky/Materials/Sunset1.mat using Guid(2441c79940171dc43b33badf9fe97828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22c0e78dc6f15645454eead6bb9d476') in 0.034893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.717813 seconds.
+  path: Assets/External Packages/buildings/fbx/tower_lvl5.FBX
+  artifactKey: Guid(5a3e1d94da6fcf848932536d2a424cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/tower_lvl5.FBX using Guid(5a3e1d94da6fcf848932536d2a424cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc88fcfe917613945d8cc1b75a6f456') in 0.063808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Stylized Water For URP/Materials/Underwater.mat
+  artifactKey: Guid(a0f631408cd8dc04c926f4f7d32f27d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Materials/Underwater.mat using Guid(a0f631408cd8dc04c926f4f7d32f27d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3984cd0efb4c58900247090dee753814') in 1.015908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/External Packages/Customizable Skybox/Materials/trunk.mat
+  artifactKey: Guid(08c4b67273e724941900639ca93caabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Customizable Skybox/Materials/trunk.mat using Guid(08c4b67273e724941900639ca93caabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8798aa49e67ecc49d0441c0330cfa290') in 0.034828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Worker_Male.obj
+  artifactKey: Guid(c20191359f0ce304b9ed67d44eb03260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Worker_Male.obj using Guid(c20191359f0ce304b9ed67d44eb03260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6829fc6a8b0a4d45185f030b5944924c') in 0.117782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Cow.obj
+  artifactKey: Guid(0c767c3b15c92214e93a687851362b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Cow.obj using Guid(0c767c3b15c92214e93a687851362b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41343554836af337c817c0e0f1298f6') in 0.151781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Cow.fbx
+  artifactKey: Guid(adeb2ee59e37c55499dd59550c3df939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Cow.fbx using Guid(adeb2ee59e37c55499dd59550c3df939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '454620452fbdab4d3e9170e7bcbeaa20') in 0.147801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Stylized Water For URP/Materials/Wavy.mat
+  artifactKey: Guid(55017f1a01259744a8e40a41b5c5920d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Materials/Wavy.mat using Guid(55017f1a01259744a8e40a41b5c5920d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '012a96a0e8e65da334ca2e107e7eba65') in 2.700721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/External Packages/buildings/fbx/tower_lvl4.FBX
+  artifactKey: Guid(22d4103ebaff52b49960c9084488c39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/tower_lvl4.FBX using Guid(22d4103ebaff52b49960c9084488c39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cbc62c6234a551cd8ccf2e8cd1dd4be') in 0.064846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Shaders/WaterMaterial.mat
+  artifactKey: Guid(553ae8e16d5a32f489e76080f7f4c1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/WaterMaterial.mat using Guid(553ae8e16d5a32f489e76080f7f4c1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567fd06b0986e965d52d9be27a71f420') in 4.899243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/External Packages/buildings/fbx/tower_lvl1.FBX
+  artifactKey: Guid(d9cc2664702761e4e84869872ec27d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/tower_lvl1.FBX using Guid(d9cc2664702761e4e84869872ec27d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b22b2db6b211b92acc802c9b2e9482aa') in 0.063359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/External Packages/Customizable Skybox/Model/Materials/trunk.mat
+  artifactKey: Guid(2b1bb1efbeb980540aa4164a74c61686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Customizable Skybox/Model/Materials/trunk.mat using Guid(2b1bb1efbeb980540aa4164a74c61686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa1ed4ed84c2207c6bb0b913a1e025b') in 0.034545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Worker_Male.fbx
+  artifactKey: Guid(99055c61acede544c9958bf51b5bb36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Worker_Male.fbx using Guid(99055c61acede544c9958bf51b5bb36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd856305d5f3b6e9fafc6d7d68639b06e') in 0.127924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Worker_Female.fbx
+  artifactKey: Guid(6c70292ef0a8c0f49bbbf0971c77f106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Worker_Female.fbx using Guid(6c70292ef0a8c0f49bbbf0971c77f106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b851ec9f8f3fca3e0d4be6cddfb336') in 0.155373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Worker_Female.obj
+  artifactKey: Guid(4bea334dc7326944cb62ac132a5d9cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Worker_Female.obj using Guid(4bea334dc7326944cb62ac132a5d9cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d12ee578a3fac514f5821a4ac0e5fad') in 0.120010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/External Packages/buildings/fbx/tower_lvl3.FBX
+  artifactKey: Guid(71192924f83cc3d4f86d373e26071e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/tower_lvl3.FBX using Guid(71192924f83cc3d4f86d373e26071e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0759c00796baf03028d90b2aa98a9496') in 0.062696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Stylized Water For URP/Materials/Windwaker.mat
+  artifactKey: Guid(ea66d3ba3c5ac7d498707e8c9e54524f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Materials/Windwaker.mat using Guid(ea66d3ba3c5ac7d498707e8c9e54524f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41025eef0113633ee750dfb0f3595515') in 1.270138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.914212 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Casual2_Male.fbx
+  artifactKey: Guid(160a5906dee5baa43aaa762d3ed86335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Casual2_Male.fbx using Guid(160a5906dee5baa43aaa762d3ed86335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a428393069da365588735a46a5e6faea') in 0.135892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Casual3_Male.obj
+  artifactKey: Guid(3fad15e596a06654cb464f471b6dfc1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Casual3_Male.obj using Guid(3fad15e596a06654cb464f471b6dfc1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bdf21efa00e9c095bf3b8893d43ff85') in 0.136487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Soldier_Female.obj
+  artifactKey: Guid(be413ed885f68df4489d4f52c097e483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Soldier_Female.obj using Guid(be413ed885f68df4489d4f52c097e483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c024408613e7b66e6403895ce2f0dc80') in 0.131331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Goblin_Female.obj
+  artifactKey: Guid(9cc376ffafce79349aebea29bb3fbdf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Goblin_Female.obj using Guid(9cc376ffafce79349aebea29bb3fbdf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea45aadf143ffa64339631e07da0737') in 0.113119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/BlueSoldier_Male.fbx
+  artifactKey: Guid(37433b8cbd348bf46b43356298c5ea30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/BlueSoldier_Male.fbx using Guid(37433b8cbd348bf46b43356298c5ea30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eaef9da443c10ce675a2c52948df084') in 0.134072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Pug.obj
+  artifactKey: Guid(a900911c97a13ea4281c672bb0340207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Pug.obj using Guid(a900911c97a13ea4281c672bb0340207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0d97288de01b0e1c155e29848f8b62e') in 0.384200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Casual2_Male.obj
+  artifactKey: Guid(65182e2e50e3a364baf9f0b35a8617f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Casual2_Male.obj using Guid(65182e2e50e3a364baf9f0b35a8617f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c0e6b34430188f99767a8f7fe437c6') in 0.107133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/BlueSoldier_Male.obj
+  artifactKey: Guid(1895b69aed3bf9546b5499541444763d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/BlueSoldier_Male.obj using Guid(1895b69aed3bf9546b5499541444763d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c9d10ebf6a3a432b5efac992b149300') in 0.116932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Casual2_Female.obj
+  artifactKey: Guid(3ba4dd96b0616f74194a28644a7c8db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Casual2_Female.obj using Guid(3ba4dd96b0616f74194a28644a7c8db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3527d0f78fec4a0f9b73cd5f10054ea6') in 0.109947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Knight_Golden_Male.obj
+  artifactKey: Guid(926da4742b02d1c4dbfb9a0bfa811f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Knight_Golden_Male.obj using Guid(926da4742b02d1c4dbfb9a0bfa811f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d54b7053626ddbd78e4e9f44a514454') in 0.109396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001097 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Knight_Male.obj
+  artifactKey: Guid(57ed95aea3f68914fb4d03fc144efdf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Knight_Male.obj using Guid(57ed95aea3f68914fb4d03fc144efdf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10075d5f41669c83050e6434b9eb0607') in 0.095050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Soldier_Male.obj
+  artifactKey: Guid(7bfde17568948a649a5892a239a57665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Soldier_Male.obj using Guid(7bfde17568948a649a5892a239a57665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c92f6efd4075c8b1debe3d82b36c22de') in 0.103906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Chef_Hat.obj
+  artifactKey: Guid(5ca06fd68e307e849b8f0d38bee9e645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Chef_Hat.obj using Guid(5ca06fd68e307e849b8f0d38bee9e645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5583f97e3972942c8c73946f39f6112') in 0.116836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Chef_Male.obj
+  artifactKey: Guid(3be74549fb6a35549a9011da6256ef0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Chef_Male.obj using Guid(3be74549fb6a35549a9011da6256ef0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a48be0dc2752609e1d01c7c568c95649') in 0.112633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Chef_Female.obj
+  artifactKey: Guid(3b62ebb1a27ba014fadff0e078f81c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Chef_Female.obj using Guid(3b62ebb1a27ba014fadff0e078f81c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007c55b1474941d9fdeb45f4c1682fc2') in 0.127052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Chef_Male.fbx
+  artifactKey: Guid(833527092ba8a054f83561f52204d07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Chef_Male.fbx using Guid(833527092ba8a054f83561f52204d07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da50758f2ab6fd381edf421304cb634') in 0.131680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Pirate_Female.fbx
+  artifactKey: Guid(70012a0c35feaf14d9ac584708a01556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Pirate_Female.fbx using Guid(70012a0c35feaf14d9ac584708a01556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e250de0221e168f75495ba2a752971') in 0.168260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Kimono_Female.obj
+  artifactKey: Guid(64131a71ae044bf4e8c6b7499916d0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Kimono_Female.obj using Guid(64131a71ae044bf4e8c6b7499916d0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ddadcb655925f3e6b433e920b9b798') in 0.101471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Zombie_Male.obj
+  artifactKey: Guid(394c241c1b7491946961cca3c3397d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Zombie_Male.obj using Guid(394c241c1b7491946961cca3c3397d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f4ce8757a0d35570da158a3d893e0f') in 0.131489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Ninja_Sand_Female.fbx
+  artifactKey: Guid(a23df23638ea99f488dc7e0c99275e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Ninja_Sand_Female.fbx using Guid(a23df23638ea99f488dc7e0c99275e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1112007dde7ad768cc4ca70e12d37e') in 0.137316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/External Packages/SimpleNaturePack/Materials/SimpleNaturePack_Texture_01.mat
+  artifactKey: Guid(93caadf4359ae8143aad35b3145d31af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/SimpleNaturePack/Materials/SimpleNaturePack_Texture_01.mat using Guid(93caadf4359ae8143aad35b3145d31af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a3580c9ddcd8058fe47d04b685fcddb') in 0.045498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Suit_Female.fbx
+  artifactKey: Guid(601aeb2c836bf0f44a53866d3812758a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Suit_Female.fbx using Guid(601aeb2c836bf0f44a53866d3812758a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09d1aac954379a80eadab6e8589b63d8') in 0.148842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Viking_Female.obj
+  artifactKey: Guid(269b9851ac731bc4bb2ed93bdfe4260b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Viking_Female.obj using Guid(269b9851ac731bc4bb2ed93bdfe4260b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda18ce4881e939ec0b64d806ae60e8b') in 0.117413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Wizard.obj
+  artifactKey: Guid(f78fa753f98873d4cbb9257c5cfa22bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Wizard.obj using Guid(f78fa753f98873d4cbb9257c5cfa22bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba87eb5b4af704f093165c187e718c7f') in 0.119039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Witch.fbx
+  artifactKey: Guid(3abcfa13f0d399a48aae6ac8c16d18b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Witch.fbx using Guid(3abcfa13f0d399a48aae6ac8c16d18b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50cac7a9666787fbc8a4c11e5253c356') in 0.145737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Casual_Bald.obj
+  artifactKey: Guid(6272bfa55b5c70e46acc6dfa4db3e4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Casual_Bald.obj using Guid(6272bfa55b5c70e46acc6dfa4db3e4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeeed3570db36e2dbf8b5b3158ad11a0') in 0.102991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Knight_Golden_Female.fbx
+  artifactKey: Guid(fcefd6d4e22ecb6439a7cf7e06e617e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Knight_Golden_Female.fbx using Guid(fcefd6d4e22ecb6439a7cf7e06e617e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff5dc528aa17774c6098a3127dad0e46') in 0.131789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Ninja_Male_Hair.obj
+  artifactKey: Guid(789832dcbfc745442a6e5e2bc084183a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Ninja_Male_Hair.obj using Guid(789832dcbfc745442a6e5e2bc084183a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7f7ae5c90f6813734ef44c38e80f2c') in 0.144710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Kimono_Female.fbx
+  artifactKey: Guid(d7487a4c2ef9e5948a319a4a88dc14e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Kimono_Female.fbx using Guid(d7487a4c2ef9e5948a319a4a88dc14e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '971bb3c96e58ad47dd295f4d17a94512') in 0.155390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Ninja_Male.fbx
+  artifactKey: Guid(bc75215c9e8becf45b017ade126f00c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Ninja_Male.fbx using Guid(bc75215c9e8becf45b017ade126f00c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f09fe00dcee81de0ab042256a2bfc0') in 0.130724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Knight_Male.fbx
+  artifactKey: Guid(07082cfc9b55986499023e84b1d88ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Knight_Male.fbx using Guid(07082cfc9b55986499023e84b1d88ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3399c840e1bdbc3913382b536e2e21ad') in 0.135484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Ninja_Male.obj
+  artifactKey: Guid(3df907690dfb13b4ca7264b2277bfe02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Ninja_Male.obj using Guid(3df907690dfb13b4ca7264b2277bfe02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3789e679a227058c8ba85d1e81d01b3d') in 0.115794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Casual_Male.obj
+  artifactKey: Guid(da22d88d0730538418b6804674ece9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Casual_Male.obj using Guid(da22d88d0730538418b6804674ece9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ebc88fdc3addaedd84960996292492d') in 0.119610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Knight_Golden_Female.obj
+  artifactKey: Guid(44a677f41ea41844f851456918423430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Knight_Golden_Female.obj using Guid(44a677f41ea41844f851456918423430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29759da7daa0f837d73d11fe6ab31a8e') in 0.110727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/VikingHelmet.obj
+  artifactKey: Guid(5446775c3dc42fd4994a688e5fa07111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/VikingHelmet.obj using Guid(5446775c3dc42fd4994a688e5fa07111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed9ba09d65867e964b38215c8e91a432') in 0.142492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Ninja_Sand.obj
+  artifactKey: Guid(f119c460006539843964898cadf7a110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Ninja_Sand.obj using Guid(f119c460006539843964898cadf7a110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c46fee2393d32b782d3acee846797d') in 0.100255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Zombie_Female.obj
+  artifactKey: Guid(3416efe24931d4542838229a1ba5b330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Zombie_Female.obj using Guid(3416efe24931d4542838229a1ba5b330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee510ae80cbc012df5529c877875d3f4') in 0.138075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/External Packages/SimpleNaturePack/Materials/SimpleNaturePack_BG.mat
+  artifactKey: Guid(5f2c2ee5f84253b41b3ff0c1aafcc515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/SimpleNaturePack/Materials/SimpleNaturePack_BG.mat using Guid(5f2c2ee5f84253b41b3ff0c1aafcc515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3733a02b89ae9ec8be7492a8e4ec26f8') in 0.043514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Viking_Male.fbx
+  artifactKey: Guid(22498487b2f1755409535eadd64b4701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Viking_Male.fbx using Guid(22498487b2f1755409535eadd64b4701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba064e101f618f16922d2c843ea3f1e4') in 0.134646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/BaseCharacter.obj
+  artifactKey: Guid(83abe2e6260994645b3075b06270d42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/BaseCharacter.obj using Guid(83abe2e6260994645b3075b06270d42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f978257b06ab25d41394c0b38be7cd9') in 0.080496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Knight_Golden_Male.fbx
+  artifactKey: Guid(29a5da877394f2549b3002cdeb98355f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Knight_Golden_Male.fbx using Guid(29a5da877394f2549b3002cdeb98355f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d24fc700fb4e665bd3ca0844bc07f0') in 0.113451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/OldClassy_Male.fbx
+  artifactKey: Guid(c44042170b01c3e479464106b45d929f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/OldClassy_Male.fbx using Guid(c44042170b01c3e479464106b45d929f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '169946f3941176370749c3bba7d474ab') in 0.152303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Doctor_Male_Old.obj
+  artifactKey: Guid(fc00c8eccd1f4f5478b731842d08e8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Doctor_Male_Old.obj using Guid(fc00c8eccd1f4f5478b731842d08e8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfdb991ddd6ce756cd33d60d93c58f16') in 0.109925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Witch.obj
+  artifactKey: Guid(a3a181f6d301fad42a68acf3479a6a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Witch.obj using Guid(a3a181f6d301fad42a68acf3479a6a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b5cee48978d07d91790074733d8c73') in 0.117322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Doctor_Female_Young.fbx
+  artifactKey: Guid(c6f9f91808ee8e94d8dad3d85a19ca98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Doctor_Female_Young.fbx using Guid(c6f9f91808ee8e94d8dad3d85a19ca98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd70b17387c71e2ce2f8fa0cc8e982bc7') in 0.151011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/OBJ.obj
+  artifactKey: Guid(ed9b3fd37f4594f4aa2c3432f66a3fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/OBJ.obj using Guid(ed9b3fd37f4594f4aa2c3432f66a3fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d95ff609ce0fce12cbfa9e428181be6') in 0.117380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Stylized Water For URP/Meshes/Circular Plane.fbx
+  artifactKey: Guid(a4328de531d19f2429bc9f98f0e9f9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Meshes/Circular Plane.fbx using Guid(a4328de531d19f2429bc9f98f0e9f9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f7a4f3e112a47f3cbd6860227e5945') in 0.047245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Stylized Water For URP/Meshes/Hexagonal Plane.fbx
+  artifactKey: Guid(3a3d08dbcecd2834e906f945a31ac7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Meshes/Hexagonal Plane.fbx using Guid(3a3d08dbcecd2834e906f945a31ac7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c45f4e56f8b88a56d7b20a98490d3e') in 0.062127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Elf.fbx
+  artifactKey: Guid(a5c87c241bc114e4395edc1df8776411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Elf.fbx using Guid(a5c87c241bc114e4395edc1df8776411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '168bb0169d0cfe96b730e02b0a891d15') in 0.133383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Soldier_Female.fbx
+  artifactKey: Guid(4fbb0f319f43bed419df01d41f4a66da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Soldier_Female.fbx using Guid(4fbb0f319f43bed419df01d41f4a66da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0828d0bf633d9a0f279e94dca2d70791') in 0.133337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Casual_Male.fbx
+  artifactKey: Guid(5f3fa977d435e8b42ad567daebfe9133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Casual_Male.fbx using Guid(5f3fa977d435e8b42ad567daebfe9133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c25ab3a8ff41b85140ec55f795136626') in 0.148658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Doctor_Male_Young.fbx
+  artifactKey: Guid(621e201c37f75604bb33cce4d0843e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Doctor_Male_Young.fbx using Guid(621e201c37f75604bb33cce4d0843e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7493db94bb3c2bdf815a287157a33e1') in 0.139860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Ninja_Sand.fbx
+  artifactKey: Guid(900cd833819322f4d8dd9c06ef089582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Ninja_Sand.fbx using Guid(900cd833819322f4d8dd9c06ef089582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8a7c44065ffe379fc9b92307f0a380') in 0.116206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Soldier_Male.fbx
+  artifactKey: Guid(00a375b8ca105ef49a294cbd40458adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Soldier_Male.fbx using Guid(00a375b8ca105ef49a294cbd40458adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '141169772dfe8b0330118b0a31add882') in 0.137077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Goblin_Female.fbx
+  artifactKey: Guid(9ed870d453c069e489250754952384e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Goblin_Female.fbx using Guid(9ed870d453c069e489250754952384e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a89aee63f7cc2b151d0140f3fcb7ed') in 0.117880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Kimono_Male.fbx
+  artifactKey: Guid(f5779cb08aef1d845bee2e427a05e7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Kimono_Male.fbx using Guid(f5779cb08aef1d845bee2e427a05e7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'debf973651610f9a173d179db32382cb') in 0.123823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/External Packages/Customizable Skybox/Materials/No Name.mat
+  artifactKey: Guid(36624e9898987d34da7dcc3c01a72523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Customizable Skybox/Materials/No Name.mat using Guid(36624e9898987d34da7dcc3c01a72523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad510d500617e7fb2d9e32679f57f26d') in 0.034932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Zombie_Female.fbx
+  artifactKey: Guid(657958d798d2fc344beea3f131b69d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Zombie_Female.fbx using Guid(657958d798d2fc344beea3f131b69d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b8ea9d139319a16191258ed32cf87de') in 0.145395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/External Packages/Customizable Skybox/Stylized Sky/Materials/Morning4.mat
+  artifactKey: Guid(c7a8e24b01cf73e4bad6eb3cb7d40acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Customizable Skybox/Stylized Sky/Materials/Morning4.mat using Guid(c7a8e24b01cf73e4bad6eb3cb7d40acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26730ae0ed1deee0485ea6b89956c28') in 0.040536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Suit_Male.obj
+  artifactKey: Guid(5fa327a143639d64c969e9d083efbb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Suit_Male.obj using Guid(5fa327a143639d64c969e9d083efbb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0494b4ebfbd62c80bfa303a817235f85') in 0.128134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Ninja_Female.fbx
+  artifactKey: Guid(b13d9b9f54915d244a76c4b8f1626650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Ninja_Female.fbx using Guid(b13d9b9f54915d244a76c4b8f1626650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec80d9bcb0c79220fb2eb300375a643') in 0.136914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Wizard.fbx
+  artifactKey: Guid(6681797f2c7e0ee41842e8c112d8b0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Wizard.fbx using Guid(6681797f2c7e0ee41842e8c112d8b0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd1809bd2db614e0c399b3a78256c0d') in 0.133558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Chef_Hat.fbx
+  artifactKey: Guid(672d4f32927e5fe41a1eeb695b2c77e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Chef_Hat.fbx using Guid(672d4f32927e5fe41a1eeb695b2c77e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc076fd117d89286a29ff3f3e3158ec') in 0.145449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Pirate_Female.obj
+  artifactKey: Guid(41a8a1ec0297223449628496ade35e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Pirate_Female.obj using Guid(41a8a1ec0297223449628496ade35e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d26ef705bf70590a0bbcfe353530c9d') in 0.141010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Ninja_Female.obj
+  artifactKey: Guid(81c752a25043f6f49a8244c11b3df1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Ninja_Female.obj using Guid(81c752a25043f6f49a8244c11b3df1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '523a3c6f11865f86f824b26ca9acc4cd') in 0.110889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Casual3_Female.fbx
+  artifactKey: Guid(442f015143140854083c2497d8a572cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Casual3_Female.fbx using Guid(442f015143140854083c2497d8a572cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a5520881307cb107aeb246f9ca495d') in 0.133892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/BlueSoldier_Female.obj
+  artifactKey: Guid(975f3497e268feb498a188f0019bff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/BlueSoldier_Female.obj using Guid(975f3497e268feb498a188f0019bff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd24579d14f09d09ee96f494dddc19f') in 0.113352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Viking_Male.obj
+  artifactKey: Guid(63695b514663f664f94af7f9a7637edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Viking_Male.obj using Guid(63695b514663f664f94af7f9a7637edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b18f078111a851f906c7ffd168cfbbb') in 0.129758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/External Packages/Customizable Skybox/Stylized Sky/Materials/Morning1.mat
+  artifactKey: Guid(8fc56946a1b593c4d8e3e0e94483338e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Customizable Skybox/Stylized Sky/Materials/Morning1.mat using Guid(8fc56946a1b593c4d8e3e0e94483338e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c918e51c67106681f888d7dd97fba72') in 0.036318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Pug.fbx
+  artifactKey: Guid(1269607f9f201764c9790ef3dc8c2a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Pug.fbx using Guid(1269607f9f201764c9790ef3dc8c2a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe6213dac6b5ff14360a8378515dd39') in 0.172202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/External Packages/QuickOutline/Resources/Materials/OutlineMask.mat
+  artifactKey: Guid(106f3ff43a17d4967a2b64c7a92e49ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/QuickOutline/Resources/Materials/OutlineMask.mat using Guid(106f3ff43a17d4967a2b64c7a92e49ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36967f5b73f8e36ad094671e698ca67') in 0.039294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Chef_Female.fbx
+  artifactKey: Guid(a53720202dd3cce49b62ac8c84c2ee50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Chef_Female.fbx using Guid(a53720202dd3cce49b62ac8c84c2ee50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '682d1af46462961807d075aacb6d9020') in 0.153034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Zombie_Male.fbx
+  artifactKey: Guid(01c6b2c396786fb4b99a39b574991f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Zombie_Male.fbx using Guid(01c6b2c396786fb4b99a39b574991f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e56f667b6f281764a591c6f8441eb672') in 0.165825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Doctor_Male_Old.fbx
+  artifactKey: Guid(ab8d5ad98c7e13c4d91209558543b05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Doctor_Male_Old.fbx using Guid(ab8d5ad98c7e13c4d91209558543b05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb6109650c26a6beabca498008f4323') in 0.120761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Doctor_Male_Young.obj
+  artifactKey: Guid(70e9eec625656d94ab67dd2d300f4f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Doctor_Male_Young.obj using Guid(70e9eec625656d94ab67dd2d300f4f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18addb32108913e53aa4b3b287d90a38') in 0.123401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/VikingHelmet.fbx
+  artifactKey: Guid(c2387ff8789dd5e45ad70cf515154702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/VikingHelmet.fbx using Guid(c2387ff8789dd5e45ad70cf515154702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b74eac63eedbcb5f9948f902d058850') in 0.164861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Casual_Female.fbx
+  artifactKey: Guid(61139161779f06b4c889782f144b0ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Casual_Female.fbx using Guid(61139161779f06b4c889782f144b0ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609d44a9f92d47756fc579983f608fbb') in 0.116498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/OldClassy_Female.obj
+  artifactKey: Guid(e0e0368c8faefca4fa362e3f9816d646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/OldClassy_Female.obj using Guid(e0e0368c8faefca4fa362e3f9816d646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc6cf63f5a30fcabfe68266826d6ea8') in 0.120730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Pirate_Male.fbx
+  artifactKey: Guid(3e1d730463f1eb7478f74364c6d9b7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Pirate_Male.fbx using Guid(3e1d730463f1eb7478f74364c6d9b7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33100f011a62fc8c0287ffc0a249fc57') in 0.154692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Viking_Female.fbx
+  artifactKey: Guid(e642711228716054fbc0db6b45ec4de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Viking_Female.fbx using Guid(e642711228716054fbc0db6b45ec4de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a1c9eebbdd4deabee4d8f58cc88be4') in 0.144222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/External Packages/StylizedGrass/Demo/Plane Mat.mat
+  artifactKey: Guid(983e78d7cd073fe4e8feec48f2fe234a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/StylizedGrass/Demo/Plane Mat.mat using Guid(983e78d7cd073fe4e8feec48f2fe234a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0db4ecf78de271438542a804cb7f1dc9') in 0.036401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Casual_Female.obj
+  artifactKey: Guid(f14e5a28ce7ee54438eba9baefc21f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Casual_Female.obj using Guid(f14e5a28ce7ee54438eba9baefc21f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0a6d2e39d450e3437b0e43e1a71b8a') in 0.113823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/OldClassy_Female.fbx
+  artifactKey: Guid(3439f3da02d06ef469c27dd8023dff9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/OldClassy_Female.fbx using Guid(3439f3da02d06ef469c27dd8023dff9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e91385a82bb73699f80a7eac41501ea8') in 0.145509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Ninja_Male_Hair.fbx
+  artifactKey: Guid(44439648b1388674cb29e1f3bc9a00e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Ninja_Male_Hair.fbx using Guid(44439648b1388674cb29e1f3bc9a00e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9822f2a95f3ca33e883521ce5e5e9274') in 0.133024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Suit_Female.obj
+  artifactKey: Guid(6498dbce3ee035342b78c3137d927052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Suit_Female.obj using Guid(6498dbce3ee035342b78c3137d927052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c88eb010ce56bb263fbc24ce1290c7') in 0.131633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/External Packages/Customizable Skybox/Stylized Sky/Materials/Morning3.mat
+  artifactKey: Guid(022e71752654d3f4fa0cbe71b312ad20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Customizable Skybox/Stylized Sky/Materials/Morning3.mat using Guid(022e71752654d3f4fa0cbe71b312ad20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e675d725d676ef8024f00f944b9c76') in 0.032748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Elf.obj
+  artifactKey: Guid(82f1db5f51e226d4ca41e5d8e4cc5bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Elf.obj using Guid(82f1db5f51e226d4ca41e5d8e4cc5bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15700d387d2caf4be8d4ff25e775f59e') in 0.160515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Ninja_Sand_Female.obj
+  artifactKey: Guid(9e777d17b120bae4c9d5f75bf533a186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/Ninja_Sand_Female.obj using Guid(9e777d17b120bae4c9d5f75bf533a186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '788c36b92f58e4a488bb90f59abb00bb') in 0.188129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Casual_Bald.fbx
+  artifactKey: Guid(e56aeb06c41999941ab8939dcde73217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Casual_Bald.fbx using Guid(e56aeb06c41999941ab8939dcde73217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1afc892e827f0c64d592cb1714026df') in 0.267926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Suit_Male.fbx
+  artifactKey: Guid(8040d41d832ace943b84e6890bc65f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Suit_Male.fbx using Guid(8040d41d832ace943b84e6890bc65f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d0667e29c24785d23d47eb9f53ea94e') in 0.234266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Doctor_Female_Old.fbx
+  artifactKey: Guid(b8fd78ae99bcb734188f0406465d3db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/FBX/Doctor_Female_Old.fbx using Guid(b8fd78ae99bcb734188f0406465d3db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6782f98d0559a123c5ce5a5a0b61e24') in 0.176028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/External Packages/Customizable Skybox/Stylized Sky/Materials/Morning2.mat
+  artifactKey: Guid(5464c15ff9c6ca04cb5790c1773e76fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Customizable Skybox/Stylized Sky/Materials/Morning2.mat using Guid(5464c15ff9c6ca04cb5790c1773e76fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f862aa02bf728009db2764e4df00d196') in 0.049545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/OldClassy_Male.obj
+  artifactKey: Guid(b1fd26a8603c11f4d9670deeaeeb6d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Ultimate Animated Character Pack - Nov 2019/OBJ/OldClassy_Male.obj using Guid(b1fd26a8603c11f4d9670deeaeeb6d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a553ab135c03d32a22821add0824e3') in 0.191026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.337284 seconds.
+  path: Assets/External Packages/Customizable Skybox/Materials/Material.003.mat
+  artifactKey: Guid(a4b1c9205184ab7479ebcb6d01e9bdaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Customizable Skybox/Materials/Material.003.mat using Guid(a4b1c9205184ab7479ebcb6d01e9bdaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a05c65a2f282f514b332c67432e42fb2') in 0.039998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Stylized Water For URP/Meshes/Square Plane.fbx
+  artifactKey: Guid(fb606524fcd88254ba3dad41413af47c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Meshes/Square Plane.fbx using Guid(fb606524fcd88254ba3dad41413af47c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a57055643691dffd51149aabaa62ad53') in 0.049124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/External Packages/Customizable Skybox/Stylized Sky/Materials/Night3.mat
+  artifactKey: Guid(135a7036ca1a07b4e9e162d80e6b6e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Customizable Skybox/Stylized Sky/Materials/Night3.mat using Guid(135a7036ca1a07b4e9e162d80e6b6e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3887b6cd65054feb00d332ba10df88e') in 0.034147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/External Packages/Customizable Skybox/Stylized Sky/Materials/Night1.mat
+  artifactKey: Guid(bbe9494f815f3c340956427c884b72a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Customizable Skybox/Stylized Sky/Materials/Night1.mat using Guid(bbe9494f815f3c340956427c884b72a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e5f7a3fb0bd4cac86c62285c773d10b') in 0.049210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/External Packages/QuickOutline/Resources/Materials/OutlineFill.mat
+  artifactKey: Guid(311313efa011949e98b6761d652ad13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/QuickOutline/Resources/Materials/OutlineFill.mat using Guid(311313efa011949e98b6761d652ad13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d37f6eb9bf6296122d3963e12a6f4f6') in 0.039302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/External Packages/Customizable Skybox/Stylized Sky/Materials/Night4.mat
+  artifactKey: Guid(ed1387202b1349540a5d6464f0f27488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Customizable Skybox/Stylized Sky/Materials/Night4.mat using Guid(ed1387202b1349540a5d6464f0f27488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f71a1323fec2c9e581818d8c7d3264c') in 0.036579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Stylized Water For URP/Materials/Ocean.mat
+  artifactKey: Guid(d337fc5282607644ebb2f3575513265e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Materials/Ocean.mat using Guid(d337fc5282607644ebb2f3575513265e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12d0b0707e458b57a1fc8a5375a0a85') in 0.475666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/External Packages/Customizable Skybox/Stylized Sky/Materials/Night2.mat
+  artifactKey: Guid(52fcefd712182d743a781fde12426775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Customizable Skybox/Stylized Sky/Materials/Night2.mat using Guid(52fcefd712182d743a781fde12426775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc7811bc945748d930b1c6d9d72e94f') in 0.041397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/External Packages/Customizable Skybox/Model/Materials/Material.003.mat
+  artifactKey: Guid(0b82edc333f454f4fab3b93e8ececd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Customizable Skybox/Model/Materials/Material.003.mat using Guid(0b82edc333f454f4fab3b93e8ececd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100b6bb031f1ef7235aaf3ff3b503e6e') in 0.024867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/External Packages/Customizable Skybox/Model/Materials/No Name.mat
+  artifactKey: Guid(9fe81213c48f6e944a8a30f76f30a9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Customizable Skybox/Model/Materials/No Name.mat using Guid(9fe81213c48f6e944a8a30f76f30a9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '352cc0e53b41d9c7046a44903f9e6eee') in 0.017364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.185212 seconds.
+  path: Assets/External Packages/SkythianCat/Hand_Painted_Nature_Kit_LITE/Materials/Larch_branch.mat
+  artifactKey: Guid(019361ef072c0d0499ac07e2f3a69f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/SkythianCat/Hand_Painted_Nature_Kit_LITE/Materials/Larch_branch.mat using Guid(019361ef072c0d0499ac07e2f3a69f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe579215e4e647f013b1f58b46de96e6') in 0.088127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.225935 seconds.
+  path: Assets/External Packages/buildings/fbx/crate.FBX
+  artifactKey: Guid(598f592d5ee183c45acedfa472156b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/crate.FBX using Guid(598f592d5ee183c45acedfa472156b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a34c6a7a406cf3e4ba3020d6147ab023') in 0.048736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/External Packages/buildings/fbx/house_lvl3.FBX
+  artifactKey: Guid(ff0c5730e5fa3234caf0037697be949a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/house_lvl3.FBX using Guid(ff0c5730e5fa3234caf0037697be949a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc53a8048bce336ecf7e8b7f4ce4a1f') in 0.055340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/External Packages/buildings/fbx/rock2.FBX
+  artifactKey: Guid(caa6c0d1b312da443acdf66f41ebaa52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/rock2.FBX using Guid(caa6c0d1b312da443acdf66f41ebaa52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a06ab353c782a696c37c9b5d640a788') in 0.054360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/External Packages/buildings/fbx/house_lvl1.FBX
+  artifactKey: Guid(ee8eb427bf60afa48aadc18c3e83dafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/house_lvl1.FBX using Guid(ee8eb427bf60afa48aadc18c3e83dafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd39d798ab276dcd7f222099e89ef5c71') in 0.047354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/External Packages/buildings/fbx/house_lvl2.FBX
+  artifactKey: Guid(aa4bbc9f80f4e59468469077a836313b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/house_lvl2.FBX using Guid(aa4bbc9f80f4e59468469077a836313b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '661369b7735d3256b80e642142fd0755') in 0.047562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/External Packages/buildings/fbx/grass1.FBX
+  artifactKey: Guid(e6a1de342b8a6be48a601da214ca52ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/grass1.FBX using Guid(e6a1de342b8a6be48a601da214ca52ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9285e8142b8b787a6626f12c59177bc') in 0.055792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/External Packages/buildings/materials/houses.mat
+  artifactKey: Guid(30d2c0caf0ebf2748b15e3aa63202a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/materials/houses.mat using Guid(30d2c0caf0ebf2748b15e3aa63202a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164808293be0433efd435048f137a44d') in 0.040163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/External Packages/buildings/fbx/house_lvl7.FBX
+  artifactKey: Guid(f727ded922603934b962032566006696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/house_lvl7.FBX using Guid(f727ded922603934b962032566006696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae0099bf5cb5568bbdd6450bcc8f8cb') in 0.063945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/External Packages/buildings/fbx/grass2.FBX
+  artifactKey: Guid(8cc84584c56b4d6419cf8c5f576c9620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/grass2.FBX using Guid(8cc84584c56b4d6419cf8c5f576c9620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ad5603a6f92fb4e13a394151cada0ce') in 0.061390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/External Packages/buildings/fbx/barrel.FBX
+  artifactKey: Guid(6f3f657341527b54db0e9162793f38d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/barrel.FBX using Guid(6f3f657341527b54db0e9162793f38d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b389032a0eef064974c4fb9af28079') in 0.061444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/External Packages/buildings/fbx/house_lvl4.FBX
+  artifactKey: Guid(c1491311318644f4686d01746b0851bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/house_lvl4.FBX using Guid(c1491311318644f4686d01746b0851bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f958e662260f3ad060128402e25f253e') in 0.055446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/External Packages/buildings/fbx/house_lvl6.FBX
+  artifactKey: Guid(78f4b8e7c73a0104a8112763cb8f5aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/house_lvl6.FBX using Guid(78f4b8e7c73a0104a8112763cb8f5aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d0dc51c69773f0c9364fe114d85e9f') in 0.060215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/External Packages/buildings/materials/highlight.mat
+  artifactKey: Guid(0a86e93b75754cb479d34de8b89d6e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/materials/highlight.mat using Guid(0a86e93b75754cb479d34de8b89d6e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe0f8d4f82f19e5502f597d88dee2e6') in 0.028453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/External Packages/buildings/fbx/house_lvl5.FBX
+  artifactKey: Guid(7dbb85b420d23544682d44616881aed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/house_lvl5.FBX using Guid(7dbb85b420d23544682d44616881aed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbfecbb77b8960c0e5c0e392856b11fd') in 0.062308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/External Packages/buildings/fbx/rock1.FBX
+  artifactKey: Guid(174a3c702f966a1438a96a9e71b25e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/rock1.FBX using Guid(174a3c702f966a1438a96a9e71b25e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21444acd4a6b442a140bd6dac5f64f26') in 0.076852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/External Packages/Stylized 3D Tools/Materials/Hammer01.mat
+  artifactKey: Guid(f563a34525fdeb6498b6d54ebda8af73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Stylized 3D Tools/Materials/Hammer01.mat using Guid(f563a34525fdeb6498b6d54ebda8af73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c16c92fd2edc1643c0daebf1263ecc8') in 0.092005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/External Packages/buildings/fbx/stone_ring.FBX
+  artifactKey: Guid(da466003c6ed751429374771167afcbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/stone_ring.FBX using Guid(da466003c6ed751429374771167afcbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f95b56fc6d2f073cb12cc8016861617') in 0.060690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/External Packages/buildings/fbx/hay1.FBX
+  artifactKey: Guid(d589351329383b1489ee574cca2d983f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/hay1.FBX using Guid(d589351329383b1489ee574cca2d983f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ae8f2171de6143449db4ad446340e8') in 0.059095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/External Packages/buildings/fbx/farm_lvl1.FBX
+  artifactKey: Guid(e8b7e6290d933f34f9071d67c3f1e7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/farm_lvl1.FBX using Guid(e8b7e6290d933f34f9071d67c3f1e7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85b2db3a0fa1c29cc0390d02b5cb01d') in 0.061419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/External Packages/buildings/fbx/carrot1.FBX
+  artifactKey: Guid(1536a66daf31c6e4f8bebe317ea20547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/carrot1.FBX using Guid(1536a66daf31c6e4f8bebe317ea20547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f96160bed220d8fe78e71ab7ef206f') in 0.066301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/External Packages/buildings/fbx/farm_house_lvl3.FBX
+  artifactKey: Guid(0d3e2bc1dc33ec84497ae9241324b3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/farm_house_lvl3.FBX using Guid(0d3e2bc1dc33ec84497ae9241324b3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd365ed08081b4e61b4a5e149737966fd') in 0.062630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/External Packages/buildings/fbx/bucket.FBX
+  artifactKey: Guid(9ba4236f42449b34f9b7da8571066ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/bucket.FBX using Guid(9ba4236f42449b34f9b7da8571066ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2e3b534fa72854851d1a651c5286a3') in 0.061052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/External Packages/buildings/fbx/tomato1.FBX
+  artifactKey: Guid(410d25e713d63e049895326e9b5f662a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/tomato1.FBX using Guid(410d25e713d63e049895326e9b5f662a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f82986e51216093ff0074a718e9a310') in 0.070879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/External Packages/buildings/fbx/farm_house_lvl4.FBX
+  artifactKey: Guid(e1089eea494164b48bfdd4b8f010c8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/farm_house_lvl4.FBX using Guid(e1089eea494164b48bfdd4b8f010c8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3499d643222dcc64510bffd9e5924cb0') in 0.050050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/External Packages/buildings/fbx/farm_lvl4.FBX
+  artifactKey: Guid(63c62f1eacfa5c248b748fd46b253c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/farm_lvl4.FBX using Guid(63c62f1eacfa5c248b748fd46b253c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8db5846367356262c39726fc8885061') in 0.060115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/External Packages/buildings/fbx/carrot2.FBX
+  artifactKey: Guid(154dfcdc0435cb2438e8be3c94fca365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/carrot2.FBX using Guid(154dfcdc0435cb2438e8be3c94fca365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c733a9a7c62c565af3db488f081c6fbb') in 0.055350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/External Packages/Customizable Skybox/Model/Materials/green tree.mat
+  artifactKey: Guid(c856162727dc18842bc191504f727456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Customizable Skybox/Model/Materials/green tree.mat using Guid(c856162727dc18842bc191504f727456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7208aa7541d26770fd932bf8aff6bb9') in 0.039924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/External Packages/buildings/fbx/farm_house_lvl6.FBX
+  artifactKey: Guid(be84b5f204443574696ce59001b0d9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/farm_house_lvl6.FBX using Guid(be84b5f204443574696ce59001b0d9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e211806f97e882d1af2bedf3fcbdb995') in 0.052237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/External Packages/Customizable Skybox/Materials/earth.mat
+  artifactKey: Guid(ef6223db6cd2fd94481bcb5ce352cc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Customizable Skybox/Materials/earth.mat using Guid(ef6223db6cd2fd94481bcb5ce352cc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '818a010094c91cf8a7172ccdf343c65a') in 0.031190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/External Packages/buildings/fbx/farm_house_lvl2.FBX
+  artifactKey: Guid(30a345e5ee05a4c43af344fe72769488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/farm_house_lvl2.FBX using Guid(30a345e5ee05a4c43af344fe72769488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ddd1e3ea5ba9ba5e95f4e58a0ba0b9c') in 0.059677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/External Packages/buildings/fbx/shovel.FBX
+  artifactKey: Guid(3f09f11ffc3a9ca4682312977e1164c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/shovel.FBX using Guid(3f09f11ffc3a9ca4682312977e1164c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec93cc2a2356431ac6cb40e36f7ff0a') in 0.052424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/External Packages/Customizable Skybox/Stylized Sky/Materials/Day6.mat
+  artifactKey: Guid(bbbcd551076325545ba102ba8c308520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Customizable Skybox/Stylized Sky/Materials/Day6.mat using Guid(bbbcd551076325545ba102ba8c308520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab3d80ed9d43e4683ecdf90835435ca') in 0.040299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/External Packages/Customizable Skybox/Stylized Sky/Materials/Day4.mat
+  artifactKey: Guid(5c57bb9da366e944a8f4ae9be4f413ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Customizable Skybox/Stylized Sky/Materials/Day4.mat using Guid(5c57bb9da366e944a8f4ae9be4f413ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '320ecf3d6704c06a69049550b81082a8') in 0.041464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/External Packages/Customizable Skybox/Model/Materials/dark trunk.mat
+  artifactKey: Guid(b50f1c4e199dc3b47b56b0880d757857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Customizable Skybox/Model/Materials/dark trunk.mat using Guid(b50f1c4e199dc3b47b56b0880d757857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b3ffb111da627c64bce6887f991e41') in 0.026922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/External Packages/Customizable Skybox/Materials/Clouds.mat
+  artifactKey: Guid(b2fcea6c7d9dbab4ca781825705d50be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Customizable Skybox/Materials/Clouds.mat using Guid(b2fcea6c7d9dbab4ca781825705d50be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e47438fc18a6dacd6042ece90ee3cc') in 0.030936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/External Packages/SkythianCat/Hand_Painted_Nature_Kit_LITE/Materials/Dandelion.mat
+  artifactKey: Guid(cce6087106ae93b4b924d77af765a269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/SkythianCat/Hand_Painted_Nature_Kit_LITE/Materials/Dandelion.mat using Guid(cce6087106ae93b4b924d77af765a269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '860469a4c16b3674b35a2d5b3084ebe2') in 0.035366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/External Packages/Customizable Skybox/Stylized Sky/Materials/Day5.mat
+  artifactKey: Guid(6225fa8890cf025489e57d3aa1d87260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Customizable Skybox/Stylized Sky/Materials/Day5.mat using Guid(6225fa8890cf025489e57d3aa1d87260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa62447d7e3afa88582b57be38d032a4') in 0.044334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/External Packages/Customizable Skybox/Materials/darken leafs.mat
+  artifactKey: Guid(3020cfb028abb6c4f977e1db1f72bef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Customizable Skybox/Materials/darken leafs.mat using Guid(3020cfb028abb6c4f977e1db1f72bef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '207d07ec5c6e151cfd574463a976a298') in 0.028447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/External Packages/Customizable Skybox/Stylized Sky/Materials/Day1.mat
+  artifactKey: Guid(9aa8ed67591432941bb76f12eb23ff91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Customizable Skybox/Stylized Sky/Materials/Day1.mat using Guid(9aa8ed67591432941bb76f12eb23ff91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44febb6f0934d8840e5b7a22270264a') in 0.046135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/External Packages/SkythianCat/Hand_Painted_Nature_Kit_LITE/Materials/Fern01_branch.mat
+  artifactKey: Guid(5e02285271f932b4d97dc7b92e669bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/SkythianCat/Hand_Painted_Nature_Kit_LITE/Materials/Fern01_branch.mat using Guid(5e02285271f932b4d97dc7b92e669bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71629954fdab6a4be377db31841cb861') in 0.029902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/External Packages/buildings/materials/farms.mat
+  artifactKey: Guid(94ad0811b82df0e44a78eadcefaf183b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/materials/farms.mat using Guid(94ad0811b82df0e44a78eadcefaf183b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b042ac1ffd4e44b4900c71a1e5a6c3eb') in 0.036793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/External Packages/Customizable Skybox/Materials/dark trunk.mat
+  artifactKey: Guid(7c7f7e923f30d8b4193dfc9a7eb33ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Customizable Skybox/Materials/dark trunk.mat using Guid(7c7f7e923f30d8b4193dfc9a7eb33ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5b494bf585ca73a3e422e642b4a201') in 0.026392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/External Packages/buildings/fbx/farm_lvl5.FBX
+  artifactKey: Guid(3046ffab76ef8a2459125ddd7502081b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/farm_lvl5.FBX using Guid(3046ffab76ef8a2459125ddd7502081b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd48621f14f85c3004d287fd076153839') in 0.057293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/External Packages/buildings/fbx/farm_lvl7.FBX
+  artifactKey: Guid(47714fade9030154ab0473afb784568c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/farm_lvl7.FBX using Guid(47714fade9030154ab0473afb784568c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64208d898449c348932d17c049798772') in 0.063860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/External Packages/Customizable Skybox/Materials/green tree.mat
+  artifactKey: Guid(162ad232b242eb042b91b10dc755c486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Customizable Skybox/Materials/green tree.mat using Guid(162ad232b242eb042b91b10dc755c486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272c6074efb283f418b863a3f9eb72f8') in 0.023598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Stylized Water For URP/Textures/Foam/Materials/Foam 6.mat
+  artifactKey: Guid(c2efda2de37def340855a556d3350017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Textures/Foam/Materials/Foam 6.mat using Guid(c2efda2de37def340855a556d3350017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c6573ac3dd80f37b2560143fbd48f7') in 0.029900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/External Packages/Customizable Skybox/Model/Materials/earth.mat
+  artifactKey: Guid(9d1ca55e2263fd54589900465f90d06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Customizable Skybox/Model/Materials/earth.mat using Guid(9d1ca55e2263fd54589900465f90d06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b79d0664af8ec88c12396657616e4ac1') in 0.022482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/External Packages/Customizable Skybox/Stylized Sky/Materials/Day2.mat
+  artifactKey: Guid(5c80d49013691df48ac94280337e88ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Customizable Skybox/Stylized Sky/Materials/Day2.mat using Guid(5c80d49013691df48ac94280337e88ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c765fa9ab936fdf73577fc7f3126199') in 0.038085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/External Packages/buildings/fbx/farm_lvl2.FBX
+  artifactKey: Guid(9454327dc1c4c0a4fb9d90fb45bf77d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/farm_lvl2.FBX using Guid(9454327dc1c4c0a4fb9d90fb45bf77d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca811f6486008c96b9d36a3d7992c2e8') in 0.059762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/External Packages/buildings/fbx/fence.FBX
+  artifactKey: Guid(aa2de1ce7a0b097438df952beb51607e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/fence.FBX using Guid(aa2de1ce7a0b097438df952beb51607e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be5998810f5c9128810e23745ae04495') in 0.049356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/External Packages/SkythianCat/Hand_Painted_Nature_Kit_LITE/Materials/Cedar_branch.mat
+  artifactKey: Guid(61ee3851987a5754786c6b9cf70230c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/SkythianCat/Hand_Painted_Nature_Kit_LITE/Materials/Cedar_branch.mat using Guid(61ee3851987a5754786c6b9cf70230c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc4379686d43724e566d2a72bcd40a7e') in 0.038496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/External Packages/Customizable Skybox/Stylized Sky/Materials/Day7.mat
+  artifactKey: Guid(ddbcbb3899687ea469ed4a5fce1532df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Customizable Skybox/Stylized Sky/Materials/Day7.mat using Guid(ddbcbb3899687ea469ed4a5fce1532df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f8c95a22cb93cb513e847bf3449718') in 0.043805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/External Packages/buildings/fbx/farm_house_lvl5.FBX
+  artifactKey: Guid(7d0338f00ae6e9242964059b50a7a393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/farm_house_lvl5.FBX using Guid(7d0338f00ae6e9242964059b50a7a393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '908c6c2fe6889604af064c709a9a2177') in 0.050200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/External Packages/buildings/fbx/hay2.FBX
+  artifactKey: Guid(5b1b38ca52776154cbff6e7b9ae9a64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/hay2.FBX using Guid(5b1b38ca52776154cbff6e7b9ae9a64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '630d10b7eaebf3c00efed3520a1ac662') in 0.058389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/External Packages/buildings/fbx/tomato2.FBX
+  artifactKey: Guid(3451599ee565b7947aa0d423227e4828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/tomato2.FBX using Guid(3451599ee565b7947aa0d423227e4828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6cef25c659d74c14d141c6122a9bd45') in 0.057466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/External Packages/Customizable Skybox/Stylized Sky/Materials/Day3.mat
+  artifactKey: Guid(56113b3b655ab7349bab4d7d405c258a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Customizable Skybox/Stylized Sky/Materials/Day3.mat using Guid(56113b3b655ab7349bab4d7d405c258a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae4de2282d7653ff2f0d0f9c8d81ff2') in 0.041061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/External Packages/Customizable Skybox/Model/Materials/darken leafs.mat
+  artifactKey: Guid(d35ea29c48c3e1944a4f03cab15e36c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Customizable Skybox/Model/Materials/darken leafs.mat using Guid(d35ea29c48c3e1944a4f03cab15e36c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '958d47c5945c4a8ec1df68266ea51f24') in 0.031026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/External Packages/buildings/fbx/farm_lvl6.FBX
+  artifactKey: Guid(dbaa07085d8352b40ba9e4382cfaad2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/farm_lvl6.FBX using Guid(dbaa07085d8352b40ba9e4382cfaad2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e913cc7171efe3e1b5877fdda2dca4f3') in 0.063654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/External Packages/buildings/fbx/farm_house_lvl1.FBX
+  artifactKey: Guid(821168d52db26ce4ab5bc520b943f1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/farm_house_lvl1.FBX using Guid(821168d52db26ce4ab5bc520b943f1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f1650892dafc600717b233b11b304aa') in 0.057220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/External Packages/buildings/fbx/farm_house_lvl7.FBX
+  artifactKey: Guid(a2f61de7c6dfe9245a0aff8ea10fdd32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/farm_house_lvl7.FBX using Guid(a2f61de7c6dfe9245a0aff8ea10fdd32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8582dfeac44de65751bc3fc9ebcd471') in 0.059013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/External Packages/buildings/fbx/farm_lvl3.FBX
+  artifactKey: Guid(90c57a36af5b3fa4aa5139d3611f2004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/buildings/fbx/farm_lvl3.FBX using Guid(90c57a36af5b3fa4aa5139d3611f2004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f61fe8162a4ac4c1fe2ac7d113052cad') in 0.056360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 171.194382 seconds.
+  path: Assets/External Packages/SkythianCat/Hand_Painted_Nature_Kit_LITE/Materials/Boletus_edulis.mat
+  artifactKey: Guid(a8f347959bb942c4e9336c6e3e2d0cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/SkythianCat/Hand_Painted_Nature_Kit_LITE/Materials/Boletus_edulis.mat using Guid(a8f347959bb942c4e9336c6e3e2d0cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b56367823244fed3935192a4ce2e2f') in 0.032001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.632889 seconds.
+  path: Assets/External Packages/SkythianCat/Hand_Painted_Nature_Kit_LITE/Materials/Bark3-2.mat
+  artifactKey: Guid(cc60ec32b64abd84ba21af6ca87441bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/SkythianCat/Hand_Painted_Nature_Kit_LITE/Materials/Bark3-2.mat using Guid(cc60ec32b64abd84ba21af6ca87441bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '785d66a2ffa9aa0fb24d544579e4adce') in 0.031083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Stylized Water For URP/Materials/Beach.mat
+  artifactKey: Guid(8aaa66d84e5e3734c9d80569abe197e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Materials/Beach.mat using Guid(8aaa66d84e5e3734c9d80569abe197e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a9990dcf5de91090ddc5582140c36a') in 0.452235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.415132 seconds.
+  path: Assets/External Packages/SkythianCat/Hand_Painted_Nature_Kit_LITE/Materials/Pine_branch.mat
+  artifactKey: Guid(2c090ec8819221843abcb401d6038363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/SkythianCat/Hand_Painted_Nature_Kit_LITE/Materials/Pine_branch.mat using Guid(2c090ec8819221843abcb401d6038363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd988d7c41a6f199c509cce0645de8d') in 0.055403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/External Packages/QuickOutline/Samples/Materials/Plane.mat
+  artifactKey: Guid(f58cf65ea995c4b45be95713bdea8134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/QuickOutline/Samples/Materials/Plane.mat using Guid(f58cf65ea995c4b45be95713bdea8134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c98a1774f2edefc79d4f9b8a3823174') in 0.029791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/External Packages/SkythianCat/Hand_Painted_Nature_Kit_LITE/Materials/Plantain.mat
+  artifactKey: Guid(f2f7ee7f0e76e80418d08f6920b62878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/SkythianCat/Hand_Painted_Nature_Kit_LITE/Materials/Plantain.mat using Guid(f2f7ee7f0e76e80418d08f6920b62878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78038e0ac7445a56b3ae69bcb04e20c2') in 0.051951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019623 seconds.
+  path: Assets/External Packages/Stylized 3D Tools/Materials/Pickaxe01.mat
+  artifactKey: Guid(aca2e5b56ece98b4f86c7303fd74a289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Stylized 3D Tools/Materials/Pickaxe01.mat using Guid(aca2e5b56ece98b4f86c7303fd74a289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07580e2a28a9e5595ed873a65f37d4f1') in 0.085417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/External Packages/Customizable Skybox/Model/Materials/pine brown.mat
+  artifactKey: Guid(23884aea9e628ee45a87314c9fd2483e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Customizable Skybox/Model/Materials/pine brown.mat using Guid(23884aea9e628ee45a87314c9fd2483e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf9c691ce834bd0be48b2c2a4a8be41') in 0.028074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/External Packages/Customizable Skybox/Model/Materials/pine tree green.mat
+  artifactKey: Guid(b67fe0ad79964244383e7633743fcc6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Customizable Skybox/Model/Materials/pine tree green.mat using Guid(b67fe0ad79964244383e7633743fcc6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32309424c74774719ebe6c43c2f3d09e') in 0.027642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/External Packages/Customizable Skybox/Materials/pine tree green.mat
+  artifactKey: Guid(471bbc61de2af0a47bd80da0aacc49dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Customizable Skybox/Materials/pine tree green.mat using Guid(471bbc61de2af0a47bd80da0aacc49dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ce1d32d36383691212eec8c0915974') in 0.032274 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005448 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.637 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1638ms)
+		BeginReloadAssembly (242ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1248ms)
+			LoadAssemblies (185ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (323ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (591ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (327ms)
+				ProcessInitializeOnLoadMethodAttributes (113ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3367 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (317.0 KB). Loaded Objects now: 4185.
+Memory consumption went from 195.4 MB to 195.1 MB.
+Total: 4.277800 ms (FindLiveObjects: 0.279600 ms CreateObjectMapping: 0.244900 ms MarkObjects: 3.691800 ms  DeleteObjects: 0.060100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004763 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.669 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1670ms)
+		BeginReloadAssembly (205ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1321ms)
+			LoadAssemblies (187ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (343ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (608ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (347ms)
+				ProcessInitializeOnLoadMethodAttributes (128ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3367 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (317.0 KB). Loaded Objects now: 4188.
+Memory consumption went from 195.4 MB to 195.0 MB.
+Total: 4.294700 ms (FindLiveObjects: 0.408200 ms CreateObjectMapping: 0.338000 ms MarkObjects: 3.446600 ms  DeleteObjects: 0.100700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006586 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.651 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1651ms)
+		BeginReloadAssembly (196ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1325ms)
+			LoadAssemblies (164ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (373ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (613ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (119ms)
+				ProcessInitializeOnLoadAttributes (340ms)
+				ProcessInitializeOnLoadMethodAttributes (129ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3367 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (317.0 KB). Loaded Objects now: 4191.
+Memory consumption went from 195.4 MB to 195.1 MB.
+Total: 4.732900 ms (FindLiveObjects: 0.452200 ms CreateObjectMapping: 0.286000 ms MarkObjects: 3.933800 ms  DeleteObjects: 0.058800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005961 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.601 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1604ms)
+		BeginReloadAssembly (180ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (1309ms)
+			LoadAssemblies (149ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (338ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (126ms)
+			SetupLoadedEditorAssemblies (609ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (342ms)
+				ProcessInitializeOnLoadMethodAttributes (137ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3367 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (317.1 KB). Loaded Objects now: 4194.
+Memory consumption went from 195.4 MB to 195.1 MB.
+Total: 3.710400 ms (FindLiveObjects: 0.312900 ms CreateObjectMapping: 0.179600 ms MarkObjects: 3.159700 ms  DeleteObjects: 0.056700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 724.955349 seconds.
+  path: Assets/Prefabs/Rock_1.prefab
+  artifactKey: Guid(f02116c209ecd9e488fc4d2cd8996133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rock_1.prefab using Guid(f02116c209ecd9e488fc4d2cd8996133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7151a542fd39c5415e03d26a1075c437') in 0.211662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 271.426102 seconds.
+  path: Assets/Prefabs/Tree_1.prefab
+  artifactKey: Guid(e289bf5debb17f6459818c207d781953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tree_1.prefab using Guid(e289bf5debb17f6459818c207d781953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85b3df933a86af49304ea2649a9341b') in 0.029458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.772249 seconds.
+  path: Assets/Prefabs/Tree_1.prefab
+  artifactKey: Guid(e289bf5debb17f6459818c207d781953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tree_1.prefab using Guid(e289bf5debb17f6459818c207d781953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d69b9f1152a868f0cb53e06cb3b304e') in 0.016677 seconds 
