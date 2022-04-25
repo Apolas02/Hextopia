@@ -270,8 +270,8 @@ public class UICanvasScript : MonoBehaviour
 
     void checkBuildingRequiredResourses()
     {
-        if (wood < 25) houseButton.GetComponent<Button>().enabled = false;
-        else houseButton.SetActive(true);
+        //if (wood < 25) houseButton.GetComponent<Button>().enabled = false;
+        //else houseButton.SetActive(true);
 
 
     }

@@ -59,6 +59,8 @@ public class CivilianScript : MonoBehaviour
     {
         // Tools
         GameObject woodAxe = transform.Find("CharacterArmature/Bone/Body 1/Hips/Abdomen/Torso/Shoulder.R/UpperArm.R/LowerArm.R/Fist.R/Fist.R_end/Axe").gameObject;
+        GameObject pickaxe = transform.Find("CharacterArmature/Bone/Body 1/Hips/Abdomen/Torso/Shoulder.R/UpperArm.R/LowerArm.R/Fist.R/Fist.R_end/Pickaxe").gameObject;
+        GameObject hammer = transform.Find("CharacterArmature/Bone/Body 1/Hips/Abdomen/Torso/Shoulder.R/UpperArm.R/LowerArm.R/Fist.R/Fist.R_end/Hammer").gameObject;
 
         switch (job)
         {
@@ -82,6 +84,8 @@ public class CivilianScript : MonoBehaviour
         void Unemployed() 
         {
             woodAxe.SetActive(false);
+            pickaxe.SetActive(false);
+            hammer.SetActive(false);
             npcAgent.isStopped = false;
             MovingAni();
             wanderTC();
@@ -117,6 +121,8 @@ public class CivilianScript : MonoBehaviour
         void Logger()
         {
             woodAxe.SetActive(true);
+            pickaxe.SetActive(false);
+            hammer.SetActive(false);
             float detectionRange = 1.0f;
 
             if (load < maxLoad)
@@ -185,7 +191,9 @@ public class CivilianScript : MonoBehaviour
 
         void Miner()
         {
-            woodAxe.SetActive(true);
+            woodAxe.SetActive(false);
+            pickaxe.SetActive(true);
+            hammer.SetActive(false);
             float detectionRange = 1.0f;
 
             if (load < maxLoad)
